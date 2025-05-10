@@ -9,7 +9,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
-  height: 2000px;
+  height: 5000px;
 }
 
 a {
@@ -76,10 +76,10 @@ a {
   min-width: 14.4rem;
   margin-left: 4.9rem;
 }
-.fixed {
+/* .fixed {
   position: sticky;
   top: -2.8rem;
-}
+} */
 
 .header .images-header img {
   width: 47rem;
@@ -197,7 +197,8 @@ a {
   width: 47rem;
   position: relative;
   left: 70rem;
-  top: 0;
+  /* top: 0; */
+  bottom: 8.7rem;
 }
 
 .texts .main-text {
@@ -271,4 +272,343 @@ a {
   display: flex;
   align-items: center;
   margin-left: 1.4rem;
+}
+.texts .Recent {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-top: 0px;
+  margin-top: 4.8rem;
+}
+.bot-text {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  margin-top: 0.8rem;
+}
+.bot-text .text-left strong {
+  color: #171100;
+  font-family: Sen;
+  font-size: 4.4rem;
+  font-weight: 700;
+  /* line-height: 54px; 122.727% */
+}
+.bot-text .text-left {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  /* line-height: 30px; */
+  padding-top: 0px;
+}
+.text-right {
+  display: inline-block;
+  margin-left: 2.8rem;
+}
+.bot-text .text-right strong {
+  color: #171100;
+  font-family: Sen;
+  font-size: 4.4rem;
+  font-weight: 700;
+  /* line-height: 54px; 122.727% */
+}
+.bot-text .text-right {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 0px;
+}
+
+.main-courses {
+  width: 117rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 17rem);
+  position: relative;
+  margin-top: 200px;
+}
+.main-courses .main-texts {
+  height: 12.4rem;
+  width: 45.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  position: relative;
+  top: -40px;
+  left: 0px;
+}
+.main-courses .main-text1 {
+  display: flex;
+  height: 4.8rem;
+  padding-top: 0px;
+  align-items: center;
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  /* line-height: 48px; */
+  letter-spacing: -0.76px;
+}
+.main-courses .main-text2 {
+  height: 6rem;
+  padding-top: 0px;
+  align-items: center;
+  display: flex;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main-courses .icon {
+  width: 9.8rem;
+  height: 4rem;
+  display: flex;
+  position: relative;
+  top: 42px;
+  left: 1072px;
+}
+
+.main-courses .icon .border {
+  display: flex;
+  position: relative;
+}
+.main-courses .icon .victor {
+  display: flex;
+  position: absolute;
+  top: 1.3rem;
+  left: 1.6rem;
+}
+.main-courses .icon .right {
+  margin-left: 1rem;
+}
+
+.main-courses .card-courses {
+  width: 37rem;
+  height: 46.6rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.main-courses .card1 .image {
+  width: 37rem;
+  height: 27.8rem;
+}
+
+.main-courses .card1 .texts {
+  width: 326px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 2.2rem;
+  top: 1.6rem;
+}
+
+.main-courses .card1 .basic {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  height: 3rem;
+  padding-top: 0px;
+}
+.main-courses .card1 .rating {
+  width: 4.8rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 11.9rem;
+  top: 0.1rem;
+}
+.main-courses .card1 .rating p {
+  padding-top: 0px;
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.main-courses .card1 .rating img {
+  width: 18px;
+  height: 18px;
+}
+.main-courses .card1 .content {
+  width: 32.6rem;
+  height: 5.2rem;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  padding-top: 0rem;
+}
+.main-courses .card1 .cost {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 0px;
+  line-height: 30px; /* 166.667% */
+  height: 3rem;
+  margin-top: 22px;
+}
+
+.main-courses .card1 .button {
+  width: 11.8rem;
+  height: 5rem;
+  border-radius: 25px;
+  background: #ffb900;
+  margin-left: 14.1rem;
+  margin-top: 1.2rem;
+}
+
+.main-courses .card2 .image {
+  width: 37rem;
+  height: 27.8rem;
+}
+
+.main-courses .card2 .texts {
+  width: 326px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 2.2rem;
+  top: 1.6rem;
+}
+
+.main-courses .card2 .ui {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  height: 3rem;
+  padding-top: 0px;
+}
+.main-courses .card2 .rating {
+  width: 4.8rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 11.9rem;
+  top: 0.1rem;
+}
+.main-courses .card2 .rating p {
+  padding-top: 0px;
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.main-courses .card2 .rating img {
+  width: 18px;
+  height: 18px;
+}
+.main-courses .card2 .content {
+  width: 32.6rem;
+  height: 5.2rem;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  padding-top: 0rem;
+}
+.main-courses .card2 .cost {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 0px;
+  line-height: 30px; /* 166.667% */
+  height: 3rem;
+  margin-top: 22px;
+}
+
+.main-courses .card2 .button {
+  width: 11.8rem;
+  height: 5rem;
+  border-radius: 25px;
+  background: #171100;
+  margin-left: 14.1rem;
+  margin-top: 1.2rem;
+}
+.main-courses .card2 .button a {
+  color: #fff;
+}
+.main-courses .card3 .image {
+  width: 37rem;
+  height: 27.8rem;
+}
+
+.main-courses .card3 .texts {
+  width: 326px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 2.2rem;
+  top: 1.6rem;
+}
+
+.main-courses .card3 .web {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  height: 3rem;
+  padding-top: 0px;
+}
+.main-courses .card3 .rating {
+  width: 4.8rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 11.9rem;
+  top: 0.1rem;
+}
+.main-courses .card3 .rating p {
+  padding-top: 0px;
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.main-courses .card3 .rating img {
+  width: 18px;
+  height: 18px;
+}
+.main-courses .card3 .content {
+  width: 32.6rem;
+  height: 5.2rem;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  padding-top: 0rem;
+}
+.main-courses .card3 .cost {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 0px;
+  line-height: 30px; /* 166.667% */
+  height: 3rem;
+  margin-top: 22px;
+}
+
+.main-courses .card3 .button {
+  width: 11.8rem;
+  height: 5rem;
+  border-radius: 25px;
+  background: #171100;
+  margin-left: 14.1rem;
+  margin-top: 1.2rem;
+}
+.main-courses .card3 .button a {
+  color: #fff;
+}
+
+.card-together {
+  display: flex;
+  justify-content: space-between;
 }
